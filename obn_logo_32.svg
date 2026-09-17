@@ -56,6 +56,9 @@
     </radialGradient>
   </defs>
 
+  <!-- Scaled up ~8% so the badge fills the canvas edge-to-edge like leading token icons (e.g. USDC), instead of leaving a wide margin -->
+  <g transform="translate(627,627) scale(1.082) translate(-627,-627)">
+
   <!-- Circular badge, preserving the proportions of the supplied logo -->
   <g filter="url(#badgeShadow)">
     <circle cx="625" cy="610" r="562" fill="url(#rimGrad)"/>
@@ -92,4 +95,6 @@
   <ellipse cx="500" cy="390" rx="360" ry="470"
            fill="url(#plantShine)"
            clip-path="url(#plantClip)"/>
+
+  </g>
 </svg>
